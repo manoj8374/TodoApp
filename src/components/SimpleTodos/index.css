@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.backgroundContainer {
+  background-color: #ffc2a0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+.subContainer {
+  width: 90%;
+  background-color: white;
+  border-radius: 14px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8542;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .subContainer {
+    width: 95%;
+  }
+}

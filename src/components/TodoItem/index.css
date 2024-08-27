@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.todoTitle {
+  text-align: left;
+  color: black;
+  font-size: 24px;
+  width: 60%;
+}
+
+li {
+  list-style-type: none;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background: transparent;
+  border: #ff0b37 2px solid;
+  border-radius: 8px;
+  color: #ff0b37;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  button {
+    width: fit-content;
+  }
+}
